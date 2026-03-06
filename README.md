@@ -4,7 +4,7 @@
 
 **NextSlide** turns any topic into a beautifully designed, self-contained HTML presentation. Every output is a single HTML file — all CSS inline, all JS inline, Google Fonts via CDN. Zero dependencies. Open in any browser and present.
 
-## ✨ Features
+## Features
 
 - **18 curated style presets** — From minimal corporate to cinematic photo-noir, each with hand-picked font pairings, color palettes, and design DNA
 - **Single-file output** — One `.html` file. No build step, no server, no dependencies
@@ -18,7 +18,7 @@
 - **Responsive scaling** — 1920×1080 base scaled to any viewport, perfect for any screen size
 - **Keyboard navigation** — Arrow keys, spacebar, touch/swipe, URL hash, fullscreen (F), black screen (B)
 
-## 📦 Installation
+## Installation
 
 ### As an OpenCode Skill
 
@@ -33,7 +33,7 @@ Then add to your `opencode.json` (or it auto-detects from the skills directory).
 
 You can also use the reference files directly — the HTML template, CSS, and animation library work standalone. See the file reference below.
 
-## 🎨 Style Presets
+## Style Presets
 
 | # | Preset | Heading Font | Mood |
 |---|--------|-------------|------|
@@ -56,7 +56,7 @@ You can also use the reference files directly — the HTML template, CSS, and an
 | 17 | Prism Glow | Bodoni Moda | Futuristic, iridescent |
 | 18 | Photo Noir | Raleway | Cinematic, TED-style |
 
-## 📁 File Structure
+## File Structure
 
 ```
 nextslide/
@@ -75,7 +75,7 @@ nextslide/
 └── LICENSE
 ```
 
-## 🔄 Export / Import
+## Export / Import
 
 ### PDF Export
 
@@ -110,7 +110,7 @@ python scripts/extract-pptx.py presentation.pptx --format text
 python scripts/extract-pptx.py presentation.pptx --format json --images-dir ./images
 ```
 
-## ⌨️ Keyboard Shortcuts
+## Keyboard Shortcuts
 
 | Key | Action |
 |-----|--------|
@@ -125,7 +125,7 @@ python scripts/extract-pptx.py presentation.pptx --format json --images-dir ./im
 
 Touch/swipe navigation is also supported on mobile devices.
 
-## 🏗️ How It Works (AI Workflow)
+## How It Works (AI Workflow)
 
 NextSlide uses a 5-phase workflow:
 
@@ -137,7 +137,7 @@ NextSlide uses a 5-phase workflow:
 
 The AI loads reference files progressively — only what's needed for each phase — to minimize context usage.
 
-## 📐 Design Principles
+## Design Principles
 
 - **1 idea per slide** — Cognitive focus over information density
 - **8px grid** — All spacing is multiples of 8px
@@ -147,11 +147,11 @@ The AI loads reference files progressively — only what's needed for each phase
 - **Min 36px titles, 18px body** — Readability on projection
 - **Purposeful animations** — Subtle, meaningful, never decorative
 
-## 📄 License
+## License
 
 MIT — see [LICENSE](LICENSE).
 
-## 🙏 Credits
+## Credits
 
 - [PptxGenJS](https://github.com/gitbrent/PptxGenJS) — PPTX generation
 - [python-pptx](https://python-pptx.readthedocs.io/) — PPTX content extraction
