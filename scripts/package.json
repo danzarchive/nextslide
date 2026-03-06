@@ -1,0 +1,12 @@
+{
+  "name": "nextslide-scripts",
+  "version": "1.0.0",
+  "description": "Export/import scripts for NextSlide presentations",
+  "private": true,
+  "scripts": {
+    "export": "node export-pptx.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "^3.12.0"
+  }
+}
