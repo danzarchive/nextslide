@@ -8,19 +8,16 @@ An [OpenCode](https://github.com/sst/opencode) skill that turns any topic into a
 
 ---
 
-## Table of Contents
+## Features
 
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [How It Works](#how-it-works)
-- [Style Presets](#style-presets)
-- [Features](#features)
-- [Export and Import](#export-and-import)
-- [Keyboard Shortcuts](#keyboard-shortcuts)
-- [Design Philosophy](#design-philosophy)
-- [File Reference](#file-reference)
-- [Contributing](#contributing)
-- [License](#license)
+- **Single-file output** -- One `.html` file with everything embedded. No build step, no server, no runtime dependencies
+- **18 curated style presets** -- Hand-picked font pairings, color palettes, and design DNA for every context
+- **PDF export** -- `Ctrl+P` and save. Uses `@media print` CSS for clean landscape pages, same approach as Reveal.js
+- **PPTX export** -- Editable PowerPoint via embedded JSON metadata and [PptxGenJS](https://github.com/gitbrent/PptxGenJS). Instant, deterministic, offline
+- **PPTX import** -- Extract content from existing `.pptx` files into structured text or JSON for AI-powered redesign
+- **Presenter mode** -- Dual-screen with speaker notes, countdown timer, and next-slide preview via BroadcastChannel
+- **24 CSS animations** -- 20 entrance + 4 emphasis animations with stagger delays and `prefers-reduced-motion` support
+- **13 slide layouts** -- Title, section, content, two-column, image-left/right/full, chart, quote, bullets, comparison, timeline, blank
 
 ---
 
@@ -127,19 +124,6 @@ Phase 3 is where the user picks a visual identity from 18 curated presets. Phase
 | 18 | Photo Noir | Raleway + Nunito Sans | `#111827` / `#e5e7eb` / `#f59e0b` | Photography, TED-style talks |
 
 Full CSS variable blocks for each preset are in [`STYLE_PRESETS.md`](STYLE_PRESETS.md).
-
----
-
-## Features
-
-- **Single-file output** -- One `.html` file with everything embedded. No build step, no server, no runtime dependencies
-- **18 curated style presets** -- Hand-picked font pairings, color palettes, and design DNA for every context
-- **PDF export** -- `Ctrl+P` and save. Uses `@media print` CSS for clean landscape pages, same approach as Reveal.js
-- **PPTX export** -- Editable PowerPoint via embedded JSON metadata and [PptxGenJS](https://github.com/gitbrent/PptxGenJS). Instant, deterministic, offline
-- **PPTX import** -- Extract content from existing `.pptx` files into structured text or JSON for AI-powered redesign
-- **Presenter mode** -- Dual-screen with speaker notes, countdown timer, and next-slide preview via BroadcastChannel
-- **24 CSS animations** -- 20 entrance + 4 emphasis animations with stagger delays and `prefers-reduced-motion` support
-- **13 slide layouts** -- Title, section, content, two-column, image-left/right/full, chart, quote, bullets, comparison, timeline, blank
 
 ---
 
